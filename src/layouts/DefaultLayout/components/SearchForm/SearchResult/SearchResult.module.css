@@ -1,0 +1,69 @@
+.coursesWrapper {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 20px 40px rgba(15, 23, 42, 0.18);
+  border: 1px solid rgba(148, 163, 184, 0.3);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
+  padding: 8px 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 20px 10px;
+  border-bottom: 1px solid #e2e8f0;
+  background-color: #ffffff;
+}
+
+.header p {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #475569;
+}
+
+.header span {
+  font-size: 12px;
+  font-weight: 500;
+  color: #2563eb;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.header span:hover {
+  color: #1d4ed8;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 6px 8px 8px;
+  max-height: 320px;
+  overflow-y: auto;
+  background-color: #ffffff;
+}
+
+.detail::-webkit-scrollbar {
+  width: 6px;
+}
+
+.detail::-webkit-scrollbar-thumb {
+  background-color: rgba(148, 163, 184, 0.6);
+  border-radius: 999px;
+}
+
+.detail::-webkit-scrollbar-track {
+  background-color: transparent;
+}
