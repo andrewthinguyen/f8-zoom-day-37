@@ -30,7 +30,7 @@
   box-shadow: 0 12px 28px rgba(37, 99, 235, 0.18);
 }
 
-.searchForm p {
+.searchForm > p {
   position: absolute;
   top: 50%;
   left: 16px;

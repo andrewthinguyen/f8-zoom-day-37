@@ -14,11 +14,11 @@ function SearchResult() {
       <div className={styles.detail}>
         <CourseItem
           itemAvatar={"https://files.fullstack.edu.vn/f8-prod/courses/1.png"}
-          nameOfItem={"Javascript co ban"}
+          nameOfItem={"JavaScript Cơ Bản"}
         />
         <CourseItem
           itemAvatar={"https://files.fullstack.edu.vn/f8-prod/courses/3.png"}
-          nameOfItem={"Lap trinh Javascript nang cao"}
+          nameOfItem={"Lập trình Javascript nâng cao"}
         />
         <CourseItem
           itemAvatar={"https://files.fullstack.edu.vn/f8-prod/courses/12.png"}
